@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Итоговая работа</title>
+        <title>Портфолио</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -17,6 +17,11 @@
                             <img class="logo__img" src="images/logo.png" alt="">
                         </a>
                         <nav class="menu">
+                            <button class="menu__btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
                             <ul class="menu__list">
                                 <li class="menu__list-item">
                                     <a class="menu__list-link" href="aboutme.html">Обо мне</a>
@@ -43,27 +48,38 @@
                         <div class="portfolio-cards-wrapper">
                         
                         <div class="portfolio-card">
-                            <img class="portfolio-img" src="images/template.JPG" alt="">
-                            <h3 class="card-title">Многостраничный сайт</h3>
-                            <p>Верстка сайта по макету</p>
+                            <a href="template-web.html" class="card-link">
+                              <img class="portfolio-img" src="images/template.JPG" alt="">
+                              <h3 class="card-title">Многостраничный сайт</h3>
+                              <p>Верстка сайта по макету</p>
+                            </a>
                         </div>
                         <div class="portfolio-card">
-                            <img class="portfolio-img" src="images/landingpage.jpg" alt="">
-                            <h3 class="card-title">Личный сайт</h3>
-                            <p>Верстка одностраничного сайта</p>
+                            <a href="landing-web.html" class="card-link">
+                              <img class="portfolio-img" src="images/landingpage.jpg" alt="">
+                              <h3 class="card-title">Личный сайт</h3>
+                              <p>Верстка одностраничного сайта</p>
+                            </a>    
                         </div>
                         <div class="portfolio-card">
-                            <img class="portfolio-img" src="images/maketfigma.jpg" alt="">
-                            <h3 class="card-title">Макет сайта</h3>
-                            <p>Создание макета сайта в онлайн-редакторе Figma</p>
+                            <a href="maketfigma-web.html" class="card-link">
+                              <img class="portfolio-img" src="images/maketfigma.jpg" alt="">
+                              <h3 class="card-title">Макет сайта</h3>
+                              <p>Создание макета сайта в онлайн-редакторе Figma</p>
+                            </a>
                         </div>
                         <div class="portfolio-card">
-                            <img class="portfolio-img" src="images/calculator.jpg" alt="">
-                            <h3 class="card-title">Калькулятор</h3>
-                            <p> Написание простого калькулятора на JavaScript</p>
+                            <a href="calculator-web.html" class="card-link">
+                              <img class="portfolio-img" src="images/calculator.jpg" alt="">
+                              <h3 class="card-title">Калькулятор</h3>
+                              <p> Написание простого калькулятора на JavaScript</p>
+                            </a>
                         </div>
                     </div>
-                    <!-- // portfolio-cards-wrapper -->
+                      <!-- // portfolio-cards-wrapper -->
+                      <br>
+                      <br>
+                      <a class="project-btn-up" href="#">↑ Вверх</a>
                     </div>
                 </div>
             </main>
@@ -151,6 +167,7 @@
                </div>
             </footer>
         </div>
-
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>    
